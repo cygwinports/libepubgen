@@ -1,0 +1,10 @@
+--- origsrc/libepubgen-0.0.0/src/lib/Makefile.am	2014-07-05 03:44:57.000000000 -0500
++++ src/libepubgen-0.0.0/src/lib/Makefile.am	2015-04-21 17:18:18.351859200 -0500
+@@ -1,6 +1,6 @@
+ ## -*- Mode: make; tab-width: 4; indent-tabs-mode: tabs -*-
+ 
+-if PLATFORM_WIN32
++if OS_WIN32
+ version_info = -version-info $(LT_CURRENT):$(LT_REVISION):$(LT_AGE) -avoid-version
+ else
+ version_info = -version-info $(LT_CURRENT):$(LT_REVISION):$(LT_AGE)
