@@ -1,6 +1,6 @@
 NAME="libepubgen0.0"
 VERSION=0.0.0
-RELEASE=2
+RELEASE=3
 CATEGORY="Libs"
 SUMMARY="Library for creating EPUB documents"
 DESCRIPTION="Library for creating EPUB documents"
